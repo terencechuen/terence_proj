@@ -73,7 +73,7 @@ def check_records(dns_domain):
     result_dict = json.JSONDecoder().decode(result)
     result_list = result_dict['DomainRecords']['Record']
     for j in result_list:
-        print('Subdomain：' + j['RR'] + ' ' + '| RecordId：' + j['RecordId'])
+        print('Subdomain：' + j['RR'].encode() + ' ' + '| RecordId：' + j['RecordId'].encode())
     return
 
 
