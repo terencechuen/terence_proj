@@ -3,7 +3,7 @@
 在安装阿里云SDK前请先安装以下依赖包：
 
 ```
-ython-pip
+python-pip
 gcc
 gcc-devel
 autoconf
