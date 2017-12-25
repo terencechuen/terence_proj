@@ -1,6 +1,24 @@
 ### 阿里云DDNS python脚本
 
-建议使用python3运行此脚本，脚本所需模块如下： 
+在安装阿里云SDK前请先安装以下依赖包：
+
+```
+ython-pip
+gcc
+gcc-devel
+autoconf
+automake
+python-devel
+python-pip
+python-crypto
+python-cryptography 
+
+#centos可使用以下命令进行安装：
+yum install python-pip gcc gcc-devel autoconf automake python-devel python-pip python-crypto python-cryptography -y
+
+```
+
+建议使用 python2 运行此脚本，脚本所需模块如下： 
 
 ```
 json
